@@ -1,0 +1,20 @@
+#headerlinks {
+    display: inline;
+    float:right;
+    list-style-type:none;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+#headerlink1 {
+    float:right;
+    text-align: right;
+
+}
+
+#headerlink2 {
+    float:right;
+
+}
+
