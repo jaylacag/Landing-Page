@@ -1,20 +1,145 @@
-#headerlinks {
-    display: inline;
-    float:right;
-    list-style-type:none;
-    margin: auto;
-    padding: auto;
+* {
+    font-family: "Hero";
+}
+
+.bodyody {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+#header {
+    font-family: "Hero";
+    font-weight: bold;
+    top: 1px;
+    color: white;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.aizen {
+    position: relative;
+    height: 281px;
+    width: 500px;
+    float: right;
+    bottom: 250px;
+    
+    
+
+}
+
+.secondimages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 108px;
+}
+
+#firstrow {
+    background-color: #1F2937;
+    color: white;
+    margin-top: 100px;
+
+}
+
+#secondrow {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+
+.subtext {
+    position: relative;
+    display: inline-block;
+    left: 60%;
+}
+
+#secondimages {
+    size: 50%;
+}
+
+.random {
+    white-space: nowrap;
+    position: absolute;
+    font-size: 36px;
+    font-weight: extra-bold;
     text-align: center;
+    left: 60%;
+    
+    
+    
+    
 }
 
 #headerlink1 {
-    float:right;
-    text-align: right;
-
+    color: grey;
+    text-decoration: none;
+    
 }
 
 #headerlink2 {
-    float:right;
+    color: grey;
+    text-decoration: none;
 
+}
+
+#headerlink3 {
+    color: grey;
+    text-decoration: none;
+
+    
+   
+}
+
+.signupbutton {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    width: 90px;
+    height: 25px;
+    
+}
+
+#headerlinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    float: right;
+    white-space: nowrap;
+    top: 0;
+    right: 100px;
+    position: absolute;
+    padding: 10px;
+    gap: 10px;
+    font-family: "Hero";
+    text-decoration: none;
+    background-color: #1F2937;
+    background-size: 50px auto;
+    height: 50%;
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.backgroundcolour1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-color: #1F2937;
+    z-index: -1;
 }
 

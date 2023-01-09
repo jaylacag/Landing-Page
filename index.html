@@ -5,45 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <header>
+<body class="bodyody">
+    
+    <header id="header">
         <h2>Header Logo</h1>
     </header>
     <nav>
-        <div style="text-align: right">
-            <ul>
-                <li><a href="#">Header Link One</a></li>
-                <li><a href="#">Header Link Two</a></li>
-                <li><a href="#">Header Link Three</a></li>
-            </ul>
+        <div>
+            <ol id="headerlinks"> 
+                <li id="headerlink1"><a style="text-decoration: none; color: lightgrey;" href="#">Header Link One</a></li>
+                <li id="headerlink2"><a style="text-decoration: none; color: lightgrey;" href="#">Header Link Two</a></li>
+                <li id="headerlink3"><a style="text-decoration: none; color: lightgrey;" href="#">Header Link Three</a></li>
+            </ol>
         </div>
     </nav>
 
     <article>
-        <section>
-            <h1> 
-                This website is awesome
-            </h1>
-            <p>This website has some subtext that goes here under the<br>main title. It's a smaller font and the color is lower contrast.</p>
-            <p>Sign up</p>
+        <section id="firstrow">
+            <p class="awesome"> 
+                This website is<br> awesome
+            <p>
+            <p>This website has some subtext that goes here under the<br>main title. It's a smaller font and the color is lower<br> contrast.</p>
+            <button class="signupbutton">Sign up</button>
+            <img class="aizen" src="images/download.png" alt="">
         </section>
 
-        <section>
-            <h2>Some random information.</h2>
-            <p>this is some subtext under an illustration or image</p>
-            <p>this is some subtext under an illustration or image</p>
-            <p>this is some subtext under an illustration or image</p>
-            <p>this is some subtext under an illustration or image</p>
+        <section id="secondrow">
+            <h2 class="random">Some random information.</h2>
+                <div id="secondimages">
+                    <img class="secondimages" src="images/download.png" alt="images">
+                    <img class="secondimages" src="images/download.png" alt="images">
+                    <img class="secondimages" src="images/download.png" alt="images">
+                    <img class="secondimages" src="images/download.png" alt="images">
+                </div>
+                <div class="subtext">
+                    <p class="subtext1">this is some subtext under an illustration or image</p>
+                    <p class="subtext2">this is some subtext under an illustration or image</p>
+                    <p class="subtext3">this is some subtext under an illustration or image</p>
+                    <p class="subtext4">this is some subtext under an illustration or image</p>
+                </div>
         </section>
 
-        <section>
+        <section id="thirdrow">
             <p>This is an inspiring quote, or a testimonial from a<br>customer. Maybe it's just filling up space, or maybe<br>people will actually read it. Who knows? All I know<br>is that it look nice.</p>
             <p>-Thor, God of Thunder</p>
         </section>
 
-        <section>
+        <section id="fourthrow">
             <p>Call to action! It's time!</p>
             <p>Sign up for our product by clicking that button right over there!</p>
             <p>Sign up</p>
@@ -53,6 +64,9 @@
 
 
     </article>
+    <div class="backgroundcolour1">
+        
+    </div>
 
     <footer>
         Copyright Mr Lacag
